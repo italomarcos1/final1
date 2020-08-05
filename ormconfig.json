@@ -1,0 +1,13 @@
+{
+  "type": "postgres",
+  "port": "5432",
+  "host": "localhost",
+  "username": "docker",
+  "password": "docker",
+  "database": "gobarberf02n",
+  "migrations": ["./src/database/migrations/*.ts"],
+  "entities": ["./src/models/*.ts"],
+  "cli": {
+    "migrationsDir": "./src/database/migrations"
+  }
+}
